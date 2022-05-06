@@ -1,0 +1,14 @@
+.btn:hover {
+    background-color: green;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
